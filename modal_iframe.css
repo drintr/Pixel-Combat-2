@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-section {
+    flex-direction: column;
+    display: flex;
+    height: 198px;
+    background: rgba(241, 243, 244, 0.8);
+    border-radius: 4px;
+}
+
+.icon-section .icon {
+    position: relative;
+    margin: auto auto;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.icon-section::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background: rgba(241, 243, 244, 0.8) url("../img/corner.svg") no-repeat;
+    width: 70px;
+    height: 71px;
+    content: "";
+}
+
+.icon-section a {
+    top: 0;
+    right: 1px;
+    position: absolute;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    height: 266px;
+}
+
+.content-section button, .content-section h1 {
+    margin: auto;
+}
+
+.content-section h1 {
+    margin-bottom: 9px;
+    color: #212121;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content-section button {
+    margin: 32px 29px auto;
+    filter: drop-shadow(0px 4px 11px rgba(22, 92, 16, 0.17));
+    background: #2DC053;
+    border: 1px solid #24DA53;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 53px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.content-section button:hover {
+    filter: drop-shadow(0px 4px 15px rgba(22, 92, 16, 0.4));
+    background: linear-gradient(90deg, #20C448 0%, rgba(17, 151, 47, 0.524479) 98.96%, rgba(48, 182, 78, 0.37) 100%), #2DC053;
+    border: 1px solid #24DA53;
+}
+
+.content-section p {
+    margin-left: 44px;
+    padding-left: 22px;
+    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    color: #757575;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    background: url("../img/ci_circle-check.svg") no-repeat left center;
+}

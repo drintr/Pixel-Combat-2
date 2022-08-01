@@ -1,0 +1,14 @@
+.game-reminder-modal {
+    display: block;
+    width: 331px;
+    height: 464px;
+    overflow: visible;
+    z-index: 999;
+    position: fixed;
+    top: 166px;
+    right: 166px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0 5px 70px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
