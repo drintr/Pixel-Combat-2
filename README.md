@@ -1,2 +1,3 @@
-# Pixel Combat 2
-So, Play the game, get good, and bully your friends, It's that easy.
+## Mods used
+
+- GPS Color Radar by Gangboy: https://www.thegtaplace.com/downloads/f171-gps-color-radar-v2
